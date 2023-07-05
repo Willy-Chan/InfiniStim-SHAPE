@@ -26,7 +26,7 @@ def combine_images(folder_path, output_path):
         parts_numbers.append(part_number)
 
     width, height = images[0].size
-    full_image = Image.new('RGB', (2 * width, 2 * height))
+    full_image = Image.new('RGBA', (2 * width, 2 * height), (0, 0, 0, 0))
 
     positions = [(0, 0), (width, 0), (0, height), (width, height)]
     flip_axes = [None, 'y', 'x', 'both']
