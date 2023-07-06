@@ -28,7 +28,7 @@ def combine_images(folder_path, output_path):
     width, height = images[0].size
     full_image = Image.new('RGBA', (2 * width, 2 * height), (0, 0, 0, 0))
 
-    positions = [(0, 0), (width, 0), (0, height), (width, height)]
+    positions = [(0, 0), (width - 1, 0), (0, height - 1), (width - 1, height - 1)]
     flip_axes = [None, 'y', 'x', 'both']
     for image, position, axis in zip(images, positions, flip_axes):
         if axis == 'both':
@@ -55,5 +55,5 @@ if __name__ == "__main__":
     output_path = './result/'
 
     # Generate stimuli
-    for i in range(100):
+    for i in range(25):
         combine_images(folder_path, output_path)
