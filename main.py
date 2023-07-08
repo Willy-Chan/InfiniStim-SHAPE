@@ -48,11 +48,11 @@ def combine_images(folder_path, output_path):
 
 if __name__ == "__main__":
     # Set the folder path where the quadrant images are located
-    folder_path = './ai_images'
+    folder_path = './component_folder'
 
 
     # Set the output path for the full image
-    output_path = './result/'
+    output_path = './result'
 
     # Generate stimuli
     for i in range(25):
