@@ -33,14 +33,14 @@ npm install shuffle-array
 ## Demo
 Sample inputs:  
 
-![image of component 1](https://github.com/Willy-Chan/image-quilter/blob/master/ai_images/11.png?raw=true)
-![image of component 2](https://github.com/Willy-Chan/image-quilter/blob/master/ai_images/3.png?raw=true)
-![image of component 5](https://github.com/Willy-Chan/image-quilter/blob/master/ai_images/8.png?raw=true)
-![image of component 10](https://github.com/Willy-Chan/image-quilter/blob/master/ai_images/12.png?raw=true)
+![image of component 1](https://github.com/Willy-Chan/InfiniStim-SHAPE/blob/master/component_folder/12.png?raw=true)
+![image of component 2](https://github.com/Willy-Chan/InfiniStim-SHAPE/blob/master/component_folder/9.png?raw=true)
+![image of component 5](https://github.com/Willy-Chan/InfiniStim-SHAPE/blob/master/component_folder/5.png?raw=true)
+![image of component 10](https://github.com/Willy-Chan/InfiniStim-SHAPE/blob/master/component_folder/2.png?raw=true)
 
 Sample output:  
 
-![image of component 10](https://github.com/Willy-Chan/image-quilter/blob/master/result/11_3_8_12.png?raw=true)
+![image of component 10](https://github.com/Willy-Chan/InfiniStim-SHAPE/blob/master/result/12_9_5_2.png?raw=true)
 
 Even with relatively simple inputs, the output can be quite complex! The number of possible stimuli can grow exponentially.
 
